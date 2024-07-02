@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+                'satoshi' : ['satoshi' , 'sans-serif']
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="font-satoshi">
+    <nav class="flex gap-[256px] px-[120px] pt-[80px]">
+        <div>
+            <a href="./index.html">
+                <img src="./images/Home/Logo.png">
+            </a>
+        </div>
+        <div class="flex gap-[120px]">
+            <div>
+                <h1 class="font-black text-[32px]">Products<span class="text-[#FFC700]">.</span></h1>
+                <ul class="flex flex-col gap-[20px] mt-[25px]">
+                    <a href="#">
+                        <li class="font-medium text-[20px]">T-shirts</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Hoodies</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Mix</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h1 class="font-black text-[32px]">Collections<span class="text-[#FFC700]">.</span></h1>
+                <ul class="flex flex-col gap-[20px] mt-[25px]">
+                    <a href="#">
+                        <li class="font-medium text-[20px]">All Black</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Rick & Morty</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Mix</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h1 class="font-black text-[32px]">Support<span class="text-[#FFC700]">.</span></h1>
+                <ul class="flex flex-col gap-[20px] mt-[25px]">
+                    <a href="#">
+                        <li class="font-medium text-[20px]">About</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Contact</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">FAQ</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h1 class="font-black text-[32px]">Account<span class="text-[#FFC700]">.</span></h1>
+                <ul class="flex flex-col gap-[20px] mt-[25px]">
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Order History</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Coupons</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Settings</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="flex gap-[20px] w-[56px] h-[56px]">
+            <img src="./images/Home/Cart.png">
+            <img src="./images/Home/Search.png">
+        </div>
+    </nav>
+
+    <div class="flex gap-[50px] px-[120px] py-[90px] mt-[80px]">
+        <div class="flex flex-col justify-between">
+            <div>
+                <h2 class="font-black text-[48px]">Boxy fit<br>
+                    Pop Smoke T-shirt</h2>
+                <p class="font-black text-[40px] mt-[30px]">35 AZN</p>
+            </div>
+        </div>
+        <div class="border-2 rounded-[8px]">
+            <img class="w-[700px]" src="./images/Home/product4.png">
+        </div>
+        <div class="flex flex-col justify-between">
+            <div class="flex flex-col gap-[40px]">
+                <div>
+                    <h5 class="font-bold text-[12px] mb-[10px]">Choose your size</h5>
+                    <div class="flex gap-[10px] font-bold text-[12px]">
+                       <div class="p-[10px] bg-[#E5E5E5] w-[50px] rounded-[15px] text-center hover:bg-black hover:text-white">XS</div>
+                       <div class="p-[10px] bg-[#E5E5E5] w-[50px] rounded-[15px] text-center hover:bg-black hover:text-white">S</div>
+                       <div class="p-[10px] bg-[#E5E5E5] w-[50px] rounded-[15px] text-center hover:bg-black hover:text-white">M</div>
+                       <div class="p-[10px] bg-[#E5E5E5] w-[50px] rounded-[15px] text-center hover:bg-black hover:text-white">L</div>
+                       <div class="p-[10px] bg-[#E5E5E5] w-[50px] rounded-[15px] text-center hover:bg-black hover:text-white">XL</div>
+                       <div class="p-[10px] bg-[#E5E5E5] w-[50px] rounded-[15px] text-center hover:bg-black hover:text-white">XXL</div>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="font-bold text-[12px] mb-[10px]">Choose your Color</h5>
+                    <div class="flex gap-[10px]">
+                        <div class="rounded-full bg-yellow-300 w-[30px] h-[30px]"></div>
+                        <div class="rounded-full bg-black w-[30px] h-[30px]"></div>
+                        <div class="rounded-full bg-blue-700 w-[30px] h-[30px]"></div>
+                        <div class="rounded-full bg-red-500 w-[30px] h-[30px]"></div>
+                    </div>
+                </div>
+                <div>
+            </div>
+
+            </div>
+
+            <div>
+                <div class="flex gap-[10px]">
+                    <p class="font-black text-[32px]">-</p>
+                    <input type="text" class="border-2 w-[60px] h-[60px] font-black text-[32px] p-[10px]">
+                    <p class="font-black text-[32px]">+</p>
+                </div>
+                <div>
+                    <a href="./login.html">
+                        <button class="px-[30px] py-[24px] font-black text-[20px] text-[#fff] bg-[#1D1D1D] rounded-[8px] mt-[35px] flex items-center">
+                            <p>ADD TO CART</p>
+                            <i class="fa-solid fa-cart-shopping ml-[130px]"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="mt-[160px]">
+    <footer class="px-[120px] py-[50px]">
+        <div class="flex justify-between">
+            <div class="flex items-center gap-[56px]">
+                <div>
+                    <img src="./images/Home/Logo-b&w.png">
+                </div>
+                <div>
+                    <p class="font-semibold text-base">© 2023 Company Name. </p>
+                </div>
+            </div>
+            <div class="flex items-center gap-[30px] font-semibold text-base">
+                <div>
+                    <p>Privacy Policy</p>
+                </div>
+                <div>
+                    <p>Terms & Conditions</p>
+                </div>
+                <div>
+                    <p>Contact</p>
+                </div>
+                <div class="bg-black text-white rounded-[6px] p-[10px]">
+                    <p>English</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

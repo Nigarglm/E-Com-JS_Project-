@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+                'satoshi' : ['satoshi' , 'sans-serif']
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="font-satoshi">
+    <nav class="flex gap-[256px] px-[120px] pt-[80px]">
+        <div>
+            <a href="./index.html">
+                <img src="./images/Home/Logo.png">
+            </a>
+        </div>
+        <div class="flex gap-[120px]">
+            <div>
+                <h1 class="font-black text-[32px]">Products<span class="text-[#FFC700]">.</span></h1>
+                <ul class="flex flex-col gap-[20px] mt-[25px]">
+                    <a href="#">
+                        <li class="font-medium text-[20px]">T-shirts</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Hoodies</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Mix</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h1 class="font-black text-[32px]">Collections<span class="text-[#FFC700]">.</span></h1>
+                <ul class="flex flex-col gap-[20px] mt-[25px]">
+                    <a href="#">
+                        <li class="font-medium text-[20px]">All Black</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Rick & Morty</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Mix</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h1 class="font-black text-[32px]">Support<span class="text-[#FFC700]">.</span></h1>
+                <ul class="flex flex-col gap-[20px] mt-[25px]">
+                    <a href="#">
+                        <li class="font-medium text-[20px]">About</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Contact</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">FAQ</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h1 class="font-black text-[32px]">Account<span class="text-[#FFC700]">.</span></h1>
+                <ul class="flex flex-col gap-[20px] mt-[25px]">
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Order History</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Coupons</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Settings</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="flex gap-[20px] w-[56px] h-[56px]">
+            <img src="./images/Home/Cart.png">
+            <img src="./images/Home/Search.png">
+        </div>
+    </nav>
+
+    <section>
+        <h1 class="font-black text-[96px] mb-[40px] px-[120px]">Cart<span class="text-[#FFC700]">.</span></h1>
+        <hr>
+        <div class="flex">
+            <div class="flex gap-[20px] pl-[120px] py-[80px]">
+                <img class="border-2 rounded-[8px]" src="./images/Home/product4.png">
+                <div class="flex flex-col justify-between">
+                    <div>
+                        <h5 class="font-bold text-[20px] mb-[10px]">Boxy fit Pop Smoke T-shirt</h5>
+                    <p class="font-bold text-base text-gray-700">T-shirts</p>
+                    <div class="flex gap-[20px] items-center mt-[20px]">
+                        <div class="rounded-full bg-black w-[30px] h-[30px]"></div>
+                        <div class="w-[48px] h-[30px] text-white bg-black text-center rounded-[20px]">S</div>
+                    </div>
+                    <p class="font-medium text-[24px] mt-[20px]">2 x 13.99 USD | <b>27.98 USD</b></p>
+                    </div>
+                    <div>
+                        <div class="flex gap-[10px]">
+                            <p class="font-black text-[24px]">-</p>
+                            <input type="text" class="border-2 w-[15px] h-[32px] font-black text-[32px] p-[10px]">
+                            <p class="font-black text-[24px]">+</p>
+                        </div>
+                        <button class="px-[15px] py-[12px] font-black text-[20px] text-[#fff] bg-[#1D1D1D] rounded-[8px] mt-[35px]">REMOVE<i class="fa-solid fa-circle-minus ml-[70px]"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-[20px] pl-[120px] py-[80px]">
+                <img class="border-2 rounded-[8px]" src="./images/Home/product4.png">
+                <div class="flex flex-col justify-between">
+                    <div>
+                        <h5 class="font-bold text-[20px] mb-[10px]">Boxy fit Pop Smoke T-shirt</h5>
+                    <p class="font-bold text-base text-gray-700">T-shirts</p>
+                    <div class="flex gap-[20px] items-center mt-[20px]">
+                        <div class="rounded-full bg-black w-[30px] h-[30px]"></div>
+                        <div class="w-[48px] h-[30px] text-white bg-black text-center rounded-[20px]">S</div>
+                    </div>
+                    <p class="font-medium text-[24px] mt-[20px]">2 x 13.99 USD | <b>27.98 USD</b></p>
+                    </div>
+                    <div>
+                        <div class="flex gap-[10px]">
+                            <p class="font-black text-[24px]">-</p>
+                            <input type="text" class="border-2 w-[15px] h-[32px] font-black text-[32px] p-[10px]">
+                            <p class="font-black text-[24px]">+</p>
+                        </div>
+                        <button class="px-[15px] py-[12px] font-black text-[20px] text-[#fff] bg-[#1D1D1D] rounded-[8px] mt-[35px]">REMOVE<i class="fa-solid fa-circle-minus ml-[70px]"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="px-[120px] mt-[80px] mb-[-40px] flex items-center justify-between">
+            <h2 class="font-medium text-[36px]">Subtotal <span class="tex-[#FFC700]">:</span><b> 55.96 USD</b></h2>
+            <button class="px-[30px] py-[24px] font-black text-[20px] text-[#fff] bg-[#1D1D1D] rounded-[8px] mt-[35px] flex items-center">PLACE YOUR ORDER<i class="fa-solid fa-arrow-right ml-[300px]"></i></button>
+        </div>
+    </section>
+
+    <hr class="mt-[160px]">
+    <footer class="px-[120px] py-[50px]">
+        <div class="flex justify-between">
+            <div class="flex items-center gap-[56px]">
+                <div>
+                    <img src="./images/Home/Logo-b&w.png">
+                </div>
+                <div>
+                    <p class="font-semibold text-base">© 2023 Company Name. </p>
+                </div>
+            </div>
+            <div class="flex items-center gap-[30px] font-semibold text-base">
+                <div>
+                    <p>Privacy Policy</p>
+                </div>
+                <div>
+                    <p>Terms & Conditions</p>
+                </div>
+                <div>
+                    <p>Contact</p>
+                </div>
+                <div class="bg-black text-white rounded-[6px] p-[10px]">
+                    <p>English</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

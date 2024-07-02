@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+                'satoshi' : ['satoshi' , 'sans-serif']
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="font-satoshi">
+    <nav class="flex gap-[256px] px-[120px] pt-[80px]">
+        <div>
+            <a href="./index.html">
+                <img src="./images/Home/Logo.png">
+            </a>
+        </div>
+        <div class="flex gap-[120px]">
+            <div>
+                <h1 class="font-black text-[32px]">Products<span class="text-[#FFC700]">.</span></h1>
+                <ul class="flex flex-col gap-[20px] mt-[25px]">
+                    <a href="#">
+                        <li class="font-medium text-[20px]">T-shirts</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Hoodies</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Mix</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h1 class="font-black text-[32px]">Collections<span class="text-[#FFC700]">.</span></h1>
+                <ul class="flex flex-col gap-[20px] mt-[25px]">
+                    <a href="#">
+                        <li class="font-medium text-[20px]">All Black</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Rick & Morty</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Mix</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h1 class="font-black text-[32px]">Support<span class="text-[#FFC700]">.</span></h1>
+                <ul class="flex flex-col gap-[20px] mt-[25px]">
+                    <a href="#">
+                        <li class="font-medium text-[20px]">About</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Contact</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">FAQ</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h1 class="font-black text-[32px]">Account<span class="text-[#FFC700]">.</span></h1>
+                <ul class="flex flex-col gap-[20px] mt-[25px]">
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Order History</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Coupons</li>
+                    </a>
+                    <a href="#">
+                        <li class="font-medium text-[20px]">Settings</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="flex gap-[20px] w-[56px] h-[56px]">
+            <img src="./images/Home/Cart.png">
+            <img src="./images/Home/Search.png">
+        </div>
+    </nav>
+
+    <div class="flex gap-[90px] mt-[40px]">
+        <aside>
+            <div class="max-w-2xl mx-auto bg-white p-16 rounded mt-[10px]">
+            
+                <div id="accordion-collapse" data-accordion="collapse">
+                    <h2 id="accordion-collapse-heading-1">
+                        <button type="button" class="flex items-center focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 justify-between p-5 w-full font-medium text-left border border-gray-200 dark:border-gray-700 border-b-0 text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-t-xl" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+                  <span class="font-bold text-base">Color</span>
+                  <svg data-accordion-icon class="w-6 h-6 shrink-0 rotate-180" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+                    </h2>
+                    <div id="accordion-collapse-body-1" aria-labelledby="accordion-collapse-heading-1">
+                        <div class="p-5 border border-gray-200 dark:border-gray-700 dark:bg-gray-900 border-b-0">
+                            <div class="flex gap-[10px]">
+                                <div class="rounded-full bg-yellow-300 w-[30px] h-[30px]"></div>
+                                <div class="rounded-full bg-black w-[30px] h-[30px]"></div>
+                                <div class="rounded-full bg-blue-700 w-[30px] h-[30px]"></div>
+                                <div class="rounded-full bg-red-500 w-[30px] h-[30px]"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 id="accordion-collapse-heading-2">
+                        <button type="button" class="flex items-center focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 justify-between p-5 w-full font-medium border border-gray-200 dark:border-gray-700 border-b-0 text-left text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+                  <span class="font-bold text-base">Size</span>
+                  <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+                    </h2>
+                    <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+                        <div class="p-5 border border-gray-200 dark:border-gray-700 border-b-0">
+                            <div class="flex gap-[10px] font-bold text-[12px]">
+                                <div class="p-[10px] bg-[#E5E5E5] w-[50px] rounded-[15px] text-center hover:bg-black hover:text-white">XS</div>
+                                <div class="p-[10px] bg-[#E5E5E5] w-[50px] rounded-[15px] text-center hover:bg-black hover:text-white">S</div>
+                                <div class="p-[10px] bg-[#E5E5E5] w-[50px] rounded-[15px] text-center hover:bg-black hover:text-white">M</div>
+                                <div class="p-[10px] bg-[#E5E5E5] w-[50px] rounded-[15px] text-center hover:bg-black hover:text-white">L</div>
+                                <div class="p-[10px] bg-[#E5E5E5] w-[50px] rounded-[15px] text-center hover:bg-black hover:text-white">XL</div>
+                                <div class="p-[10px] bg-[#E5E5E5] w-[50px] rounded-[15px] text-center hover:bg-black hover:text-white">XXL</div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 id="accordion-collapse-heading-3">
+                        <button type="button" class="flex items-center border focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 border-gray-200 dark:border-gray-700 justify-between p-5 w-full font-medium text-left text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+                  <span class="font-bold text-base">Category</span>
+                  <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+                    </h2>
+                    <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+                        <div class="p-5 border border-gray-200 dark:border-gray-700 border-t-0">
+                            <ul class="flex flex-col gap-[22px] font-medium text-[14px]">
+                                <a href="#">
+                                    <li>Hoodie</li>
+                                </a>
+                                <a href="#">
+                                    <li>T-Shirt</li>
+                                </a>
+                                <a href="#">
+                                    <li>Jogger</li>
+                                </a>
+                                <a href="#">
+                                    <li>Caps</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-yellow-400 py-[30px] px-[26px] rounded-[18px] flex flex-col gap-[20px] mt-[40px]">
+                    <h2 class="font-bold text-[24px]">Join our newsletter<br>
+                        and don’t miss<br>
+                        new arrivals.</h2>
+                        <input class="p-[20px] font-bold text-[24px] text-black rounded-[8px] relative" placeholder="Your E-mail">
+                        <i class="fa-solid fa-arrow-up absolute text-black text-[36px] rotate-[45deg] mt-[150px] ml-[270px]"></i>
+                </div>
+                <script src="https://unpkg.com/flowbite@1.3.3/dist/flowbite.js"></script>
+            </div>
+        </aside>
+        <section>
+                    <div class="flex flex-col gap-[40px] mt-[80px]">
+                        <div class="flex gap-[20px]">
+                            <a href="./detail.html">
+                                <div>
+                                    <div>
+                                        <img src="./images/Home/product4.png">
+                                    </div>
+                                    <div class="flex justify-between mt-[20px]">
+                                    <div>
+                                        <h5 class="font-bold text-[20px]">Boxy fit Pop Smoke T-shirt</h5>
+                                        <p class="font-bold text-base text-gray-500 mt-[10px]">T-shirts</p>
+                                    </div>
+                                    <div class="font-bold text-[24px]">13.99 USD</div>
+                                    </div>
+                                </div>
+                            </a>
+                
+                            <a href="./detail.html">
+                                <div>
+                                    <div>
+                                        <img src="./images/Home/product4.png">
+                                    </div>
+                                    <div class="flex justify-between mt-[20px]">
+                                    <div>
+                                        <h5 class="font-bold text-[20px]">Boxy fit Pop Smoke T-shirt</h5>
+                                        <p class="font-bold text-base text-gray-500 mt-[10px]">T-shirts</p>
+                                    </div>
+                                    <div class="font-bold text-[24px]">13.99 USD</div>
+                                    </div>
+                                </div>
+                            </a>
+                
+                            <a href="./detail.html">
+                                <div>
+                                    <div>
+                                        <img src="./images/Home/product4.png">
+                                    </div>
+                                    <div class="flex justify-between mt-[20px]">
+                                    <div>
+                                        <h5 class="font-bold text-[20px]">Boxy fit Pop Smoke T-shirt</h5>
+                                        <p class="font-bold text-base text-gray-500 mt-[10px]">T-shirts</p>
+                                    </div>
+                                    <div class="font-bold text-[24px]">13.99 USD</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="flex gap-[20px]">
+                            <a href="./detail.html">
+                                <div>
+                                    <div>
+                                        <img src="./images/Home/product4.png">
+                                    </div>
+                                    <div class="flex justify-between mt-[20px]">
+                                    <div>
+                                        <h5 class="font-bold text-[20px]">Boxy fit Pop Smoke T-shirt</h5>
+                                        <p class="font-bold text-base text-gray-500 mt-[10px]">T-shirts</p>
+                                    </div>
+                                    <div class="font-bold text-[24px]">13.99 USD</div>
+                                    </div>
+                                </div>
+                            </a>
+                
+                            <a href="./detail.html">
+                                <div>
+                                    <div>
+                                        <img src="./images/Home/product4.png">
+                                    </div>
+                                    <div class="flex justify-between mt-[20px]">
+                                    <div>
+                                        <h5 class="font-bold text-[20px]">Boxy fit Pop Smoke T-shirt</h5>
+                                        <p class="font-bold text-base text-gray-500 mt-[10px]">T-shirts</p>
+                                    </div>
+                                    <div class="font-bold text-[24px]">13.99 USD</div>
+                                    </div>
+                                </div>
+                            </a>
+                
+                            <a href="./detail.html">
+                                <div>
+                                    <div>
+                                        <img src="./images/Home/product4.png">
+                                    </div>
+                                    <div class="flex justify-between mt-[20px]">
+                                    <div>
+                                        <h5 class="font-bold text-[20px]">Boxy fit Pop Smoke T-shirt</h5>
+                                        <p class="font-bold text-base text-gray-500 mt-[10px]">T-shirts</p>
+                                    </div>
+                                    <div class="font-bold text-[24px]">13.99 USD</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                
+                        <div class="flex gap-[20px]">
+                            <div>
+                                <div>
+                                    <img src="./images/Home/product4.png">
+                                </div>
+                                <div class="flex justify-between mt-[20px]">
+                                <div>
+                                    <h5 class="font-bold text-[20px]">Boxy fit Pop Smoke T-shirt</h5>
+                                    <p class="font-bold text-base text-gray-500 mt-[10px]">T-shirts</p>
+                                </div>
+                                <div class="font-bold text-[24px]">13.99 USD</div>
+                                </div>
+                            </div>
+                
+                            <div>
+                                <div>
+                                    <img src="./images/Home/product4.png">
+                                </div>
+                                <div class="flex justify-between mt-[20px]">
+                                <div>
+                                    <h5 class="font-bold text-[20px]">Boxy fit Pop Smoke T-shirt</h5>
+                                    <p class="font-bold text-base text-gray-500 mt-[10px]">T-shirts</p>
+                                </div>
+                                <div class="font-bold text-[24px]">13.99 USD</div>
+                                </div>
+                            </div>
+                
+                            <div>
+                                <div>
+                                    <img src="./images/Home/product4.png">
+                                </div>
+                                <div class="flex justify-between mt-[20px]">
+                                <div>
+                                    <h5 class="font-bold text-[20px]">Boxy fit Pop Smoke T-shirt</h5>
+                                    <p class="font-bold text-base text-gray-500 mt-[10px]">T-shirts</p>
+                                </div>
+                                <div class="font-bold text-[24px]">13.99 USD</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+    </div>
+
+    <hr class="mt-[160px]">
+    <footer class="px-[120px] py-[50px]">
+        <div class="flex justify-between">
+            <div class="flex items-center gap-[56px]">
+                <div>
+                    <img src="./images/Home/Logo-b&w.png">
+                </div>
+                <div>
+                    <p class="font-semibold text-base">© 2023 Company Name. </p>
+                </div>
+            </div>
+            <div class="flex items-center gap-[30px] font-semibold text-base">
+                <div>
+                    <p>Privacy Policy</p>
+                </div>
+                <div>
+                    <p>Terms & Conditions</p>
+                </div>
+                <div>
+                    <p>Contact</p>
+                </div>
+                <div class="bg-black text-white rounded-[6px] p-[10px]">
+                    <p>English</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

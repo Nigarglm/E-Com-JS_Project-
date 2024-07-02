@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+                'satoshi' : ['satoshi' , 'sans-serif']
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="font-satoshi flex justify-between">
+    <div>
+        <nav class="flex items-center gap-[80px] px-[120px] pt-[80px]">
+            <div>
+                <a href="./index.html">
+                    <img src="./images/Home/Logo.png">
+                </a>
+            </div>
+            <div class="bg-black rounded-[8px] text-[#fff] p-[15px]">
+                English
+            </div>
+        </nav>
+        <h1 class="font-black text-[96px] px-[120px] mt-[80px]">Sign in<span class="text-[#FFC700]">.</span></h1>
+        <form class="px-[120px] flex flex-col gap-[40px] mt-[160px]">
+            <div class="flex flex-col font-black text-base">
+                <label>EMAIL</label>
+                <input class="border-2 mt-[16px] rounded-[8px] h-[48px] w-[630px]" type="email">
+            </div>
+            <div class="flex flex-col font-black text-base">
+                <label>PASSWORD</label>
+                <input class="border-2 mt-[16px] rounded-[8px] h-[48px] w-[630px]" type="password">
+            </div>
+            <div class="flex justify-between font-medium text-base">
+                <div class="flex gap-[10px]">
+                    <input type="radio">
+                    <p>Remember me</p>
+                </div>
+                <a class="underline" href="#">Recover my password</a>
+            </div>
+            <button class="px-[30px] py-[24px] font-black text-[20px] text-[#fff] bg-[#1D1D1D] rounded-[8px] mt-[35px] flex items-center">SIGN IN<i class="fa-solid fa-arrow-right ml-[470px]"></i></button>
+            <div class="flex gap-[5px] mb-[80px] font-medium text-base">
+                <p>New here?</p>
+                <a class="underline" href="./register.html">Create an account.</a>
+            </div>
+        </form>
+    </div>
+    <img src="./images/Login.Register/Sign-in.png">
+</body>
+</html>
